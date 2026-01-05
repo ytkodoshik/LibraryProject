@@ -37,6 +37,7 @@ The system abstracts CRUD operations through parameterized Stored Procedures, in
 
 * `script.sql` - The complete T-SQL source code containing the schema, constraints, triggers, and stored procedures.
 * `Library_Database.bacpac` - A Data-Tier Application package file containing both the schema and sample data for quick deployment.
+* `Project_Requirements_PL.pdf` - Original project documentation and requirements (in Polish), including initial ERD diagrams and normalization steps.
 * `README.md` - Project documentation.
 
 ##  How to Run

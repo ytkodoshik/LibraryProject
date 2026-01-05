@@ -1,11 +1,11 @@
 # Library Management System Database
 
-## 📌 Project Overview
+##  Project Overview
 This project is a comprehensive relational database solution designed to manage the core operations of a modern library. It handles the management of **books** (including e-books and audiobooks), **readers**, **loans**, **reservations**, and library **staff**.
 
 The system is built using **Microsoft SQL Server (T-SQL)** and demonstrates advanced database development concepts, including strict data normalization, declarative integrity, and procedural logic.
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Database Design & Architecture
 * **Normalization:** The schema is fully normalized up to the **Third Normal Form (3NF)** to ensure data consistency and eliminate redundancy.
@@ -33,13 +33,13 @@ The system abstracts CRUD operations through parameterized Stored Procedures, in
     * `Rola_Administratora`: Full database control.
 * **Backup Strategy:** Scripts included for Full, Differential, and Transaction Log backups to ensure data durability.
 
-## 📂 Repository Contents
+##  Repository Contents
 
 * `script.sql` - The complete T-SQL source code containing the schema, constraints, triggers, and stored procedures.
 * `biblioteka.bacpac` - A Data-Tier Application package file containing both the schema and sample data for quick deployment.
 * `README.md` - Project documentation.
 
-## ⚙️ How to Run
+##  How to Run
 
 You have two options to set up the database:
 
@@ -55,12 +55,12 @@ You have two options to set up the database:
 3.  Select the `biblioteka.bacpac` file included in this repo.
 4.  Follow the wizard to deploy the full database with data.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 * **Database Engine:** Microsoft SQL Server 2022
 * **Language:** T-SQL
 * **Tools:** SQL Server Management Studio (SSMS)
 
-## 👥 Authors
+##  Authors
 Project based on the documentation "Projekt Bazy Danych - Biblioteka".
 * Graf
 * Lesyk

@@ -36,7 +36,7 @@ The system abstracts CRUD operations through parameterized Stored Procedures, in
 ##  Repository Contents
 
 * `script.sql` - The complete T-SQL source code containing the schema, constraints, triggers, and stored procedures.
-* `biblioteka.bacpac` - A Data-Tier Application package file containing both the schema and sample data for quick deployment.
+* `Library_Database.bacpac` - A Data-Tier Application package file containing both the schema and sample data for quick deployment.
 * `README.md` - Project documentation.
 
 ##  How to Run
@@ -52,8 +52,9 @@ You have two options to set up the database:
 ### Option 2: Using the BACPAC File (Quick Deploy)
 1.  Open SSMS.
 2.  Right-click on **Databases** > **Import Data-tier Application**.
-3.  Select the `biblioteka.bacpac` file included in this repo.
-4.  Follow the wizard to deploy the full database with data.
+3.  Select the `Library_Database.bacpac` file included in this repo.
+4.  Follow the wizard to deploy the full database.
+    > ⚠️ **Important:** When importing, ensure the target database name is set to **'biblioteka'** manually. This is required to remain compatible with the SQL scripts in this repository (which use `USE Biblioteka;`).
 
 ##  Technology Stack
 * **Database Engine:** Microsoft SQL Server 2022
